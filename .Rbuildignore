@@ -1,0 +1,6 @@
+^walking_skeleton\.R$
+^GUIDE_MECHECK\.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^_pkgdown\.yml$

@@ -1,0 +1,24 @@
+Package: mecheck
+Title: Controle qualite pour l'ecosysteme MEverse
+Version: 0.0.0.9000
+Authors@R: person("Aristarque Peniel", "Segue", email = "vous@example.com", role = c("aut", "cre"))
+Description: Verifie la coherence d'un me_project dans son ensemble
+    (definis dans mecore) : coherence des dates de metadata, unicite des
+    labels d'indicateurs, presence des datasets references, completude
+    du cadre logique. Complementaire a medata (qui verifie un dataset
+    isole) : mecheck verifie les relations ENTRE les objets d'un projet.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    mecore (>= 0.0.0.9000),
+    S7 (>= 0.2.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Collate:
+    '00_rules.R'
+    '01_default_rules.R'
+    '02_describe.R'
+    'zzz.R'
