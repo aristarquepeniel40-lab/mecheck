@@ -22,3 +22,5 @@ Collate:
     '01_default_rules.R'
     '02_describe.R'
     'zzz.R'
+Remotes:
+    aristarquepeniel40-lab/mecore
