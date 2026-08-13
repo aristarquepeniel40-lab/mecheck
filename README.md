@@ -1,5 +1,7 @@
 # mecheck
 
+[![R-CMD-check](https://github.com/aristarquepeniel40-lab/mecheck/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aristarquepeniel40-lab/mecheck/actions/workflows/R-CMD-check.yaml)
+
 **Contrôle qualité pour l'écosystème [MEverse](https://github.com/aristarquepeniel40-lab/mecore).**
 
 Vérifie la cohérence d'un `mecore::me_project` **dans son ensemble** :

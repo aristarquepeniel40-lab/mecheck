@@ -1,4 +1,4 @@
-# Enquete agriculteurs
+# system('git add .') system('git commit -m "docs: add README.md"') system('git push')Enquete agriculteurs
 
 **Organisation :** Universite de Parakou\
 **Pays :** Benin\
