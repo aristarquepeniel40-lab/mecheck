@@ -1,7 +1,7 @@
-describe <- mecore::describe
+me_describe <- mecore::me_describe
 
 #' @noRd
-S7::method(describe, me_check_report) <- function(x, ...) {
+S7::method(me_describe, me_check_report) <- function(x, ...) {
   n_echecs <- sum(x@results$status == "ECHEC")
   n_total <- nrow(x@results)
   if (n_echecs == 0) {

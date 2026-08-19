@@ -37,7 +37,7 @@ p <- me_project(name = "p", metadata = meta, datasets = list(), indicators = lis
 
 rapport <- run_checks(p)
 print(rapport@results)
-cat(describe(rapport), "\n")
+cat(me_describe(rapport), "\n")
 
 if (has_failures(rapport)) {
   # decider quoi faire : avertir, bloquer une publication, etc.

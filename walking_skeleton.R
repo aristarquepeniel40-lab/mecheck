@@ -14,7 +14,7 @@ p_ok <- me_project(name = "Projet propre", metadata = meta_ok, datasets = list(d
 
 rapport_ok <- run_checks(p_ok)
 stopifnot(!has_failures(rapport_ok))
-cat("Cas 1 (projet propre) : OK -", describe(rapport_ok), "\n")
+cat("Cas 1 (projet propre) : OK -", me_describe(rapport_ok), "\n")
 print(rapport_ok@results)
 
 # --- Cas 2 : dates incoherentes ---
