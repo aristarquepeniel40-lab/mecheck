@@ -1,0 +1,36 @@
+url: https://aristarquepeniel40-lab.github.io/mecheck/
+
+template:
+  bootstrap: 5
+
+home:
+  title: "mecheck : Controle qualite"
+  links:
+  - text: Ecosysteme MEverse (ARCHITECTURE.md)
+    href: https://github.com/aristarquepeniel40-lab/mecore/blob/master/ARCHITECTURE.md
+  - text: Voir tous les packages MEverse
+    href: https://github.com/aristarquepeniel40-lab/meverse
+
+navbar:
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search, github, ecosystem]
+  components:
+    ecosystem:
+      text: "Ecosysteme MEverse"
+      menu:
+      - text: "mecore"
+        href: https://aristarquepeniel40-lab.github.io/mecore/
+      - text: "medata"
+        href: https://aristarquepeniel40-lab.github.io/medata/
+      - text: "meindicator"
+        href: https://aristarquepeniel40-lab.github.io/meindicator/
+      - text: "mereport"
+        href: https://aristarquepeniel40-lab.github.io/mereport/
+      - text: "mesdg"
+        href: https://aristarquepeniel40-lab.github.io/mesdg/
+      - text: "meverse"
+        href: https://aristarquepeniel40-lab.github.io/meverse/
+    github:
+      icon: fab fa-github
+      href: https://github.com/aristarquepeniel40-lab/mecheck
