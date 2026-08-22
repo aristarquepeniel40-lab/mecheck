@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/aristarquepeniel40-lab/mecheck/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/aristarquepeniel40-lab/mecheck/blob/v1.0.0/DESCRIPTION)
 
 Segue A (2026). *mecheck: Controle qualite pour l'ecosysteme MEverse*. R
 package version 1.0.0,
